@@ -96,19 +96,19 @@ figure img {
 .container {
 	display: grid ;
 	width: 100% ;
-	background: #f80 ;
+	background: #fff ;
 	margin: auto ;
 }
 
 /*Acerca de mi*/
 
 .container #About {
-	background: #f30 ;
 	display: flex ;
 	align-items: center ;
 	justify-content: space-around ;
+	flex-wrap: wrap ;
 	width: 90% ;
-	margin: auto 5% ;
+	margin: 3rem 5% ;
 	padding: 1rem ;
 	background: rgba( 255, 255, 255, 0.1 ) ;
 	border-top: 0.1rem solid rgba( 255, 255, 255, 0.5 ) ;
@@ -118,18 +118,46 @@ figure img {
 	bacdrop-filter: blur(0.5rem) ;
 }
 
-.container #About h2 {
+.container #About article h2 {
 	width: 100% ;
-	margin: auto ;
-	float: left ;
+	margin: 0.1em auto ;
+	font-size: 4rem ;
+	text-align: center ;
 }
 
+.container #About h2 i {
+	font-size: 2rem ;
+	margin: 1rem auto ;
+}
+
+.container #About article p {
+	width: 40% ;
+	margin: auto 5% ;
+	font-size: 1rem ;
+}
 
 .container #Proyects {
-	background: #f30 ;
+	display: flex ;
+	align-items: center ;
+	justify-content: space-between ;
+	flex-wrap: wrap ;
 	width: 90% ;
 	margin: 0.4em 5% ;
+	padding: 1rem ;
+	background: rgba( 255, 255, 255, 0.1 ) ;
+	border-top: 0.1rem solid rgba( 255, 255, 255, 0.5 ) ;
+	border-left: 0.1rem solid rgba( 255, 255, 255, 0.5 ) ;
+	box-shadow: 0.2rem 0.5rem 2rem #000 ; 
+	border-radius: 1rem ;
+	bacdrop-filter: blur(0.5rem) ;
 }
 
 
+.container #Proyects h2 {
+	width: 100% ;
+	margin: 0.1em auto ;
+	font-size: 4rem ;
+	text-align: center ;
+}
 
+.container #
